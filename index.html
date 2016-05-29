@@ -9,7 +9,7 @@
         <meta charset="utf-8">
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>SMACK: A Bounded Software Verifier for C Programs</title>		
+        <title>SMACK Software Verifier and Verification Toolchain</title>
 		<!-- Meta Description -->
         <meta name="description" content="Blue One Page Creative HTML5 Template">
         <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
@@ -106,8 +106,8 @@
             <div class="slide-caption">
                 <div class="caption-content">
                     <h2 class="animated fadeInDown">SMACK</h2>
-                    <span class="animated fadeInDown">A Bounded Software Verifier for C Programs</span>
-                    <a href="https://github.com/smackers/smack/tree/develop" class="btn btn-blue btn-effect">GitHub</a>
+                    <span class="animated fadeInDown">Software Verifier and Verification Toolchain</span>
+                    <a href="https://github.com/smackers/smack" class="btn btn-blue btn-effect">GitHub</a>
                 </div>
             </div>
 		</section>
@@ -124,7 +124,21 @@
 					</div>
                     
                     <div>
-                        <p>SMACK is a translator from the LLVM compiler’s popular intermediate representation (IR) into the Boogie intermediate verification language (IVL). Sourcing LLVM IR exploits an increasing number of compiler front-ends, optimizations, and analyses. SMACK is both a modular software verification toolchain and a self-contained software verifier. It can be used to verify the assertions in its input programs. By default, assertions are verified up to a given bound on loop iterations and recursion depth; it contains experimental support for unbounded verification as well.</p>
+                        <p>
+SMACK is both a modular software verification toolchain and a
+self-contained software verifier. It can be used to verify the assertions
+in its input programs. In its default mode, assertions are verified up to a
+given bound on loop iterations and recursion depth; it contains experimental
+support for unbounded verification as well.
+Under the hood, SMACK is a translator from the LLVM
+compiler’s popular intermediate representation (IR) into the
+Boogie intermediate verification language (IVL).
+Sourcing LLVM IR exploits an increasing number of compiler front-ends,
+optimizations, and analyses.
+Targeting Boogie exploits a canonical
+platform which simplifies the implementation of algorithms for verification,
+model checking, and abstract interpretation.
+                        </p>
                     </div>
 					
 					
