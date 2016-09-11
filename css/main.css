@@ -492,6 +492,7 @@ h1.navbar-brand {
     width: 50px;
 }
 
+/*
 .fancybox-next span {
     background: url("../img/right.png") no-repeat scroll center center #009ee3;
     height: 50px;
@@ -505,6 +506,7 @@ h1.navbar-brand {
     width: 50px;
     left: 0;
 }
+*/
 
 /*=================================================================
 	About
@@ -538,6 +540,7 @@ h1.navbar-brand {
     margin-bottom: 70px;
 }
 
+/*
 .owl-buttons {
     border: 2px solid #fff;
     display: inline-block;
@@ -549,6 +552,7 @@ h1.navbar-brand {
     display: inline-block;
     padding: 0 5px;
 }
+*/
 
 .welcome-message {
     padding: 0 50px;
@@ -759,6 +763,7 @@ ul.external li a:hover {
     position: relative;
 }
 
+/*
 .people-item > div:before {
     #background-image: url("../img/icons/quotes.png");
     #background-repeat: no-repeat;
@@ -768,7 +773,9 @@ ul.external li a:hover {
     position: absolute;
     width: 45px;
 }
+*/
 
+/*
 .people-item > div:after {
     #background-image: url("../img/icons/quotes.png");
     #background-position: -58px 0;
@@ -779,6 +786,7 @@ ul.external li a:hover {
     right: 0;
     width: 45px;
 }
+*/
 
 .people-item > div > span {
     display: inline-block;
@@ -787,20 +795,26 @@ ul.external li a:hover {
     text-transform: uppercase;
 }
 
+/*
 #persons .owl-controls.clickable {
     margin-top: 20px;
     text-align: center;
 }
+*/
 
+/*
 #persons .owl-buttons {
     border: 2px solid #fff;
     float: inherit;
 }
+*/
 
+/*
 #persons .owl-prev:hover,
 #persons .owl-next:hover {
     color: #fff;
 }
+*/
 
 .price-table {
     border: 1px solid #e3e3e3;
@@ -1189,6 +1203,7 @@ textarea.form-control {
     }
 
 /* testimonial */
+/*
     .testimonial-item {
         width: 100%;
     }
@@ -1200,6 +1215,7 @@ textarea.form-control {
     .testimonial-item > div:after {
         bottom: -35px;
     }
+*/
 
 /* price */
     .price-table {
