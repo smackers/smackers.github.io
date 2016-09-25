@@ -764,10 +764,10 @@ ul.external li a:hover {
 
 .people-item img {
     border: 3px solid #fff;
-    border-radius: 50%;
+    border-radius: 75%;
     display: inline-block;
     height: auto;
-    max-width: 100px;
+    max-width: 150px;
 }
 
 .people-item > div {
@@ -1257,6 +1257,14 @@ textarea.form-control {
 
     .sec-title h2 {
         font-size: 25px;
+    }
+    
+    .sec-subtitle h2 {
+        font-size: 18px;
+    }
+    
+    .sec-title h2:after {
+        left: 30%;
     }
 
     .sec-title h2:after {
