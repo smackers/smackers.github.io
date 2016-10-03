@@ -19,7 +19,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 24px;
     font-size: 16px;
-    color: #818181;
+    /*color: #818181;*/
 }
 
 figure, p, address {
@@ -66,6 +66,13 @@ main > section {
 
 .btn-blue {
     background-color: rgba(0,158,227, 0.78);
+    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
+    padding: 15px 55px;
+    color: #fff;
+}
+
+.btn-color {
+    background-color: #252525;
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
     color: #fff;
@@ -293,11 +300,12 @@ h1.navbar-brand {
     font-weight: 700;
     margin: 0;
     text-transform: uppercase;
+    color: #fff;
 }
 
 .navbar-inverse .navbar-nav > li > a {
     color: #fff;
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 
@@ -492,6 +500,7 @@ h1.navbar-brand {
     width: 50px;
 }
 
+/*
 .fancybox-next span {
     background: url("../img/right.png") no-repeat scroll center center #009ee3;
     height: 50px;
@@ -505,6 +514,7 @@ h1.navbar-brand {
     width: 50px;
     left: 0;
 }
+*/
 
 /*=================================================================
 	About
@@ -538,6 +548,7 @@ h1.navbar-brand {
     margin-bottom: 70px;
 }
 
+/*
 .owl-buttons {
     border: 2px solid #fff;
     display: inline-block;
@@ -549,6 +560,7 @@ h1.navbar-brand {
     display: inline-block;
     padding: 0 5px;
 }
+*/
 
 .welcome-message {
     padding: 0 50px;
@@ -748,10 +760,10 @@ ul.external li a:hover {
 
 .people-item img {
     border: 3px solid #fff;
-    border-radius: 50%;
+    border-radius: 75%;
     display: inline-block;
     height: auto;
-    max-width: 100px;
+    max-width: 150px;
 }
 
 .people-item > div {
@@ -759,6 +771,7 @@ ul.external li a:hover {
     position: relative;
 }
 
+/*
 .people-item > div:before {
     #background-image: url("../img/icons/quotes.png");
     #background-repeat: no-repeat;
@@ -768,7 +781,9 @@ ul.external li a:hover {
     position: absolute;
     width: 45px;
 }
+*/
 
+/*
 .people-item > div:after {
     #background-image: url("../img/icons/quotes.png");
     #background-position: -58px 0;
@@ -779,6 +794,7 @@ ul.external li a:hover {
     right: 0;
     width: 45px;
 }
+*/
 
 .people-item > div > span {
     display: inline-block;
@@ -787,20 +803,26 @@ ul.external li a:hover {
     text-transform: uppercase;
 }
 
+/*
 #persons .owl-controls.clickable {
     margin-top: 20px;
     text-align: center;
 }
+*/
 
+/*
 #persons .owl-buttons {
     border: 2px solid #fff;
     float: inherit;
 }
+*/
 
+/*
 #persons .owl-prev:hover,
 #persons .owl-next:hover {
     color: #fff;
 }
+*/
 
 .price-table {
     border: 1px solid #e3e3e3;
@@ -1189,6 +1211,7 @@ textarea.form-control {
     }
 
 /* testimonial */
+/*
     .testimonial-item {
         width: 100%;
     }
@@ -1200,6 +1223,7 @@ textarea.form-control {
     .testimonial-item > div:after {
         bottom: -35px;
     }
+*/
 
 /* price */
     .price-table {
@@ -1229,6 +1253,14 @@ textarea.form-control {
 
     .sec-title h2 {
         font-size: 25px;
+    }
+    
+    .sec-subtitle h2 {
+        font-size: 18px;
+    }
+    
+    .sec-title h2:after {
+        left: 30%;
     }
 
     .sec-title h2:after {
